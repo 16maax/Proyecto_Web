@@ -1,38 +1,65 @@
-.App {
-  text-align: center;
+/* App.css */
+
+.app {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  margin-bottom: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.pedido-form {
+  margin-bottom: 40px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.pedido-form h2 {
+  margin-bottom: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.pedido-form form {
+  border: 1px solid #ccc;
+  padding: 20px;
+  background-color: #f9f9f9;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.pedido-list table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.pedido-list th, .pedido-list td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.pedido-list th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.pedido-list tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.pedido-list tbody tr:hover {
+  background-color: #e5e5e5;
 }
